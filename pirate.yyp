@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "5a564f87-15e6-4d83-b419-7c956a6f767c",
+            "Value": {
+                "id": "a27dcabe-20f8-4662-889d-c2be3cb0b359",
+                "resourcePath": "scripts\\scr_set_stand_unoccupied\\scr_set_stand_unoccupied.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5cf4ac66-459e-4397-af78-dd6a4c98c6fd",
             "Value": {
                 "id": "a84fa1df-4fb0-4b38-8733-3b27bf8027dd",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "f306ced2-fff0-48b4-9558-ee33bec70064",
+            "Value": {
+                "id": "64cd32cf-06de-4b8e-b1bb-55eba6fb5747",
+                "resourcePath": "scripts\\scr_set_stand_occupied\\scr_set_stand_occupied.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "4227111b-a74a-43c4-86c3-3b06a65bcd5c",
@@ -345,7 +361,9 @@
     ],
     "script_order": [
         "55e83b90-0f8c-4f5a-916f-3a3439f3a0a5",
-        "e59f40b5-785b-4485-ac40-56c51ad7332f"
+        "e59f40b5-785b-4485-ac40-56c51ad7332f",
+        "f306ced2-fff0-48b4-9558-ee33bec70064",
+        "5a564f87-15e6-4d83-b419-7c956a6f767c"
     ],
     "tutorial": ""
 }

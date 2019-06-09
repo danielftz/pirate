@@ -4,7 +4,7 @@
 
 //set_layer
 layer = layer_get_id("Ship");
-var popup_layer = layer_get_id("Popup");
+var marker_layer = layer_get_id("Ground_marker");
 max_stand = 9;//maximum number of stand
 current_num_occupier = 9;//current number of occupiers INITIALL SET TO FULL
 stand_list = ds_list_create();//create a list of stands
@@ -15,7 +15,7 @@ full_stand_list = ds_list_create();//create a list of full stands
 for (var i=1;i<4;i++){
 	for (var j=1;j<4;j++){
 		//INITIALLY SET TO FULL FOR ALL STAND POINTS
-		var stand_id = instance_create_layer(x+j*37,y+i*37,popup_layer,obj_ship_stand_point);
+		var stand_id = instance_create_layer(x+j*37,y+i*37,marker_layer,obj_ship_stand_point);
 		ds_list_add(stand_list,stand_id);
 		ds_list_add(full_stand_list,stand_id);
 		stand_id.mother_part = id;
