@@ -1,1 +1,0 @@
-mp_grid_add_instances(ship_grid,self,true);

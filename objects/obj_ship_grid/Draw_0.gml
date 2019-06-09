@@ -1,1 +1,1 @@
-mp_grid_draw(ship_grid);
+//mp_grid_draw(ship_grid);

@@ -4,3 +4,4 @@
 //**black line indicate a door
 //**similar to FTL
 layer = layer_get_id("Ship");
+mp_grid_add_instances(ship_grid,self,true);
