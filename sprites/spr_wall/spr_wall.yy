@@ -2,7 +2,7 @@
     "id": "8045342b-0c3f-4787-a8ed-b95c7abf8698",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_bulkhead",
+    "name": "spr_wall",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -11,7 +11,7 @@
     "bbox_right": 14,
     "bbox_top": 0,
     "bboxmode": 0,
-    "colkind": 1,
+    "colkind": 0,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
