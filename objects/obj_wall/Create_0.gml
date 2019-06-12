@@ -3,5 +3,5 @@
 //**yellow parts are passable walk ways
 //**black line indicate a door
 //**similar to FTL
-layer = layer_get_id("Ship");
+layer = layer_get_id("ly_ship");
 mp_grid_add_instances(ship_grid,self,true);

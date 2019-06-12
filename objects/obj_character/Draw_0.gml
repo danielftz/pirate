@@ -2,7 +2,7 @@ draw_self();
 //draw circle when selected
 if selected {
 	draw_set_color(c_green);
-	draw_circle(x,y,15,true);
+	draw_circle(x,y,16,true);
 }
 
 //if state == "moving" and selected{

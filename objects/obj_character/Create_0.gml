@@ -1,7 +1,7 @@
 //**characters are crews of a ship that can be moved with RTS control. 
 
 //initialize
-layer = layer_get_id("Characters");
+layer = layer_get_id("ly_character");
 spd = 2.5;
 state = "idle";
 selected = false;

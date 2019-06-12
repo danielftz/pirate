@@ -3,8 +3,8 @@
 //**similar to FTL
 
 //set_layer
-layer = layer_get_id("Ship");
-var marker_layer = layer_get_id("Ground_marker");
+layer = layer_get_id("ly_ship");
+var marker_layer = layer_get_id("ly_ground_marker");
 max_stand = 9;//maximum number of stand
 current_num_occupier = 9;//current number of occupiers INITIALL SET TO FULL
 stand_list = ds_list_create();//create a list of stands
