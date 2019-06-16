@@ -19,3 +19,14 @@ Features that I would like to be in the game in the near terms
 	-each part should be deletable
 	-the ability to save the design and copy it to the combat room
 
+2019-06-15
+Created A Rudimentary ship construction mechanism
+	-parts can now be rotated individually and in bulk if selected
+	-parts are now deletable
+	-instead of scalable wall, created wall block objected. Walls can be "painted" in blocks. 
+STILL need to implement the algorithm to save the ship design and transport them to a differrent room. 
+Ideas: set a ship block to command room, 
+	save the position of other ship blocks and walls in that command room object
+	the position are saved as distance relative to the command room block.
+
+Also need some specific functions for each ship part (engine, gun, cargo, etc). 

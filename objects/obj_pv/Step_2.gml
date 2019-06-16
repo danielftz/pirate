@@ -23,3 +23,11 @@ if is_dragged and is_selected{
 		y = yy;
 	}
 }
+////after mouse release check if all_collision_is set
+//if is_selected and !is_dragged and all_collision_check{
+//	x = prev_x;
+//	y = prev_y;
+//	image_angle = prev_angle;
+//}
+//else if is_selected and !is_dragged and !all_collision_check{
+//}

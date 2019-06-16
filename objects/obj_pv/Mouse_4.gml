@@ -1,5 +1,7 @@
 
 //when pressed on an icon, make a copy of it
+all_collision_check = false;
+collision_found = false;
 if is_icon{
 	//when clicked on an icon, release all obj_pv as unselected
 	with (obj_pv){

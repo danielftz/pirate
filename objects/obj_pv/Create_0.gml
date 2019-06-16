@@ -15,5 +15,6 @@ offset_y = 0;
 //if the position is incorrect, snap back to previous position
 prev_x = 0;
 prev_y = 0;
+prev_angle = image_angle;
 
 layer = layer_get_id("ly_ship");
