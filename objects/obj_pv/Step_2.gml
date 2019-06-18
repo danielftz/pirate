@@ -17,7 +17,7 @@ if is_dragged and is_selected{
 		//	xx = ((mouse_x-offset_x-grid_top_coord_x)div grid_w)*grid_h+grid_top_coord_x;
 			
 		//}
-		var xx = (round((mouse_x-offset_x-grid_top_coord_x)/ grid_w))*grid_h+grid_top_coord_x;
+		var xx = (floor((mouse_x-offset_x-grid_top_coord_x)/ grid_w))*grid_h+grid_top_coord_x;
 		var yy = ((mouse_y-offset_y) div grid_h)*grid_h
 		x = xx
 		y = yy;
